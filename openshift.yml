@@ -72,7 +72,7 @@ objects:
             #  sourcePath: /opt/app-root/src/lua_modules/share/lua/5.1/resty/iputils.lua
       type: Image 
     strategy:
-      dockerStrategy:
+      sourceStrategy:
         from:
           kind: ImageStreamTag
           name: 'amp-apicast:${AMP_RELEASE}'
