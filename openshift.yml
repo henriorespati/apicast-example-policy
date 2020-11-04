@@ -76,7 +76,7 @@ objects:
         from:
           kind: ImageStreamTag
           name: 'amp-apicast:${AMP_RELEASE}'
-      type: Docker
+      type: Source 
     triggers:
       - type: ConfigChange
       - type: ImageChange
