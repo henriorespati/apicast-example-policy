@@ -1,0 +1,11 @@
+{
+  "$schema": "http://apicast.io/policy-v1/schema#manifest#",
+  "name": "Header Modification Custom Policy",
+  "summary": "This policy enables 3scale to fetch the response headers.",
+  "description": "This policy enables 3scale to fetch the response headers.",
+  "version": "0.1",
+  "configuration": {
+    "type": "object",
+    "properties": { }
+  }
+}
